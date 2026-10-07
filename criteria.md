@@ -25,9 +25,7 @@ Given a query that matches at least one listing, the agent completes all three
 tool calls and returns a fit card — in at least 4 of 5 tries.
 
 **Why this target:**
-<!-- Why 4 of 5 and not 5 of 5? Something about your search, probably —
-     "my search is a plain keyword match and some phrasings will miss" is a
-     real answer. -->
+Search is a plain keyword match, so a phrasing like "retro band shirt" can miss a listing tagged "vintage graphic tee" even though a person would call it a match. Two of the three tools also call a model, which can time out or return an empty string. I'd rather set an honest 4 of 5 and see which phrasings fail than claim 5 of 5 and hide that. I'll run this with five different phrasings, not the same query five times.
 
 ---
 
@@ -37,67 +35,46 @@ Given a query that matches no listings, the agent stops before calling
 `suggest_outfit` and returns a message naming what to change — 5 of 5 tries.
 
 **Why this target:**
-<!-- Why is 5 of 5 reasonable here when criterion 1 isn't? What's different
-     about this path? -->
+This path never touches the model. `search_listings` is plain Python and returns `[]` for the same input every time, so the stop is a plain `if` and there's no randomness to excuse a miss. A failure here is a bug, not variance. "Naming what to change" means the message points at the specific constraint that was too tight (the price ceiling, the size, or the keywords), not just "no results."
 
 ---
 
-## 3. Something about state
+## 3. The selected item is the one the next tool receives
 
-<!-- YOU WRITE THIS ONE.
-
-     How would you know that the item your search found is the same item the
-     next tool received? Name something countable or observable.
-
-     This is the criterion people find hardest, because state failure doesn't
-     look like state failure — it looks like a tool problem. Something that
-     compares session["selected_item"] against what actually reached
-     suggest_outfit is the shape you're after. -->
-
-
+In 5 of 5 tries on a matching query, the listing `id` in
+`session["selected_item"]` equals the `id` of the dict that `suggest_outfit`
+received and the dict that `create_fit_card` received, and it equals the `id`
+of the first element of the `search_listings` result. I'll check this by
+logging the id at each handoff and comparing them. As a second check, the
+price in the fit card must equal `selected_item["price"]`.
 
 **Why this target:**
-
-
+There's no model in the handoff. It's just passing a variable, so any mismatch is a bug: a stale item, a re-search that returned a different first result, or a wrong index. I'm not allowing a 4 of 5 here because one mismatch means the agent talked about the wrong item, which looks like a model hallucination when it's really a state failure.
 
 ---
 
-## 4. Something about the fit card
+## 4. The fit card is a caption and varies between runs
 
-<!-- YOU WRITE THIS ONE.
-
-     The fit card calls a model, so the same input can produce different words
-     each time. That's not a bug — it's the nature of the tool. So what would
-     make it acceptable?
-
-     Think about what you'd actually be unhappy to see. A caption that never
-     mentions the price? Two different items producing the same opening
-     sentence? A card longer than a caption anyone would post? Any of those can
-     be turned into a number. -->
-
-
+Running `create_fit_card` five times on the same item and outfit:
+(a) in at least 4 of 5 runs the caption is 2–4 sentences, contains the item's
+price once and its platform once; and
+(b) no two of the five captions are word-for-word identical.
+I'll check both with string tests, not by reading.
 
 **Why this target:**
-
-
+Different wording is expected from a model call, so I'm not checking the wording. I'm checking what I'd be unhappy to see. Length, price, and platform are things the prompt asks for but the model may drift on, so (a) allows one miss. Identical captions are different: they mean `CACHE_ENABLED` is on or `TEMPERATURE` is 0.0, which is a config bug and not model variance, so (b) allows no repeats.
 
 ---
 
-## 5. Your choice
+## 5. Filters are respected
 
-<!-- YOU WRITE THIS ONE TOO.
-
-     Pick something you actually care about getting right. Speed, the empty
-     wardrobe path, what happens when the model can't be reached, whether the
-     search respects a price ceiling — anything, as long as it names a number
-     or an observable outcome. -->
-
-
+Given 5 queries that each include a `size` and a `max_price`, zero returned
+listings violate either filter: every `price` is at most `max_price`, and every
+size matches by the whole-token rule in the Tool Inventory (so "S" never
+returns "US 9" or "XS"). 5 of 5 queries, zero violations.
 
 **Why this target:**
-
-
-
+This is deterministic code, so I don't allow any violations. A single shoe in a "small top" search makes the whole agent look broken, and it would quietly cost me in unit 4 when I test criterion 1. I chose this over the empty-wardrobe path because the size substring bug is the most likely mistake in this codebase.
 ---
 
 <!-- ─────────────────────────────────────────────────────────────────────────
