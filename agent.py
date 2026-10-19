@@ -18,7 +18,8 @@ import re
 import config  # noqa: F401
 import trace
 from tools import search_listings, suggest_outfit, create_fit_card
-from generate import ModelUnavailable  # noqa: F401 — handled in unit 4
+from mcp_client import call_tool
+from generate import ModelUnavailable
 
 
 # ── session state ─────────────────────────────────────────────────────────────
@@ -118,6 +119,15 @@ def _no_results_message(parsed: dict) -> str:
     return base + " " + "; ".join(hints).capitalize() + "."
 
 
+def _model_down_message(what: str, item: dict, exc: ModelUnavailable) -> str:
+    """Say the model couldn't be reached, keeping the search result visible."""
+    return (
+        f"Found {item['title']} (${item['price']:g}), but couldn't reach the model "
+        f"to write {what}. {exc} "
+        "Then run the same query again."
+    )
+
+
 # ── planning loop ─────────────────────────────────────────────────────────────
 
 def _next_step(session: dict) -> str:
@@ -163,27 +173,59 @@ def run_agent(query: str, wardrobe: dict) -> dict:
                     "I couldn't find any item words in that. Describe what you "
                     "want, e.g. 'vintage graphic tee under $30, size M'."
                 )
+            trace.step("parse_query", inputs=session["query"], returned=str(parsed),
+                       note="no item words, stopping" if session["error"] else "")
 
         elif step == "search":
             p = session["parsed"]
-            results = search_listings(p["description"], p["size"], p["max_price"])
+            args = {
+                "description": p["description"],
+                "size": p["size"],
+                "max_price": p["max_price"],
+            }
+            results = call_tool("search_listings", args)
             session["search_results"] = results
             if not results:  # THE BRANCH: nothing found, so stop here
                 session["error"] = _no_results_message(p)
+                note = "branch: empty, stopping before suggest_outfit"
             else:
                 session["selected_item"] = session["search_results"][0]
+                note = f"branch: selected {session['selected_item']['id']} {session['selected_item']['title']}"
+            trace.step("search_listings (via MCP)", inputs=str(args), returned=results, note=note)
 
         elif step == "outfit":
-            outfit = suggest_outfit(session["selected_item"], session["wardrobe"])
+            try:
+                outfit = suggest_outfit(session["selected_item"], session["wardrobe"])
+            except ModelUnavailable as exc:
+                session["error"] = _model_down_message("outfit ideas", session["selected_item"], exc)
+                trace.step("suggest_outfit", inputs=session["selected_item"],
+                           returned="ModelUnavailable", note="model unreachable, stopping")
+                break
             if not outfit or not outfit.strip():
                 session["error"] = "Couldn't come up with an outfit for that item. Try again."
             else:
                 session["outfit_suggestion"] = outfit
+            n_items = len((session["wardrobe"] or {}).get("items") or [])
+            trace.step("suggest_outfit",
+                       inputs=f"new_item={session['selected_item']['id']} {session['selected_item']['title']!r}, "
+                              f"wardrobe={n_items} items",
+                       returned=outfit,
+                       note="empty outfit, stopping" if session["error"] else "")
 
         elif step == "card":
-            session["fit_card"] = create_fit_card(
-                session["outfit_suggestion"], session["selected_item"]
-            )
+            try:
+                session["fit_card"] = create_fit_card(
+                    session["outfit_suggestion"], session["selected_item"]
+                )
+            except ModelUnavailable as exc:
+                session["error"] = _model_down_message("a fit card", session["selected_item"], exc)
+                trace.step("create_fit_card", inputs=session["selected_item"],
+                           returned="ModelUnavailable", note="model unreachable, stopping")
+                break
+            trace.step("create_fit_card",
+                       inputs=f"new_item={session['selected_item']['id']} {session['selected_item']['title']!r}, "
+                              f"outfit={len(session['outfit_suggestion'])} chars from step above",
+                       returned=session["fit_card"])
 
         else:  # "done"
             break
