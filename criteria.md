@@ -27,6 +27,26 @@ tool calls and returns a fit card — in at least 4 of 5 tries.
 **Why this target:**
 Search is a plain keyword match, so a phrasing like "retro band shirt" can miss a listing tagged "vintage graphic tee" even though a person would call it a match. Two of the three tools also call a model, which can time out or return an empty string. I'd rather set an honest 4 of 5 and see which phrasings fail than claim 5 of 5 and hide that. I'll run this with five different phrasings, not the same query five times.
 
+> **Revised in unit 4:** Given five differently phrased queries that each
+> match at least one listing, the agent completes all three tool calls and
+> returns a fit card, **and the selected item is one a person would accept as
+> a match for that phrasing**, in at least 4 of 5 tries. "Acceptable" is a set
+> of listing ids per phrasing, read off the data by hand and kept in
+> `score_run.py::ACCEPTABLE`. For example, `retro band shirt` accepts only the
+> two band tees (lst_006, lst_033).
+>
+> **Why revised:** The original measured the wrong thing. My reason for the
+> target was that phrasings can miss the listing a person means, but the
+> criterion only checked that the run completed. In the unit 4 before-run,
+> `retro band shirt` styled a Vintage Polo Shirt and still passed, so the
+> failure I wrote the criterion to catch was invisible to it. The target stays
+> 4 of 5.
+>
+> **Honest caveat:** I wrote the acceptable sets after seeing the before-run,
+> not before it. To keep that from bending the result, every set holds every
+> listing in the data that fits the phrasing, not just the one the agent
+> picked.
+
 ---
 
 ## 2. An impossible query stops before the second tool
