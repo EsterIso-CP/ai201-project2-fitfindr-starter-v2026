@@ -15,18 +15,64 @@ own criteria need — these are a starting point, not a fixed set.
 
 SCENARIOS = [
     {
-        # A query the data can match. Criterion 1.
+        # Criterion 1 says five different phrasings, not one query five times,
+        # so each try gets its own query. All five match at least one listing.
         "name": "matching query completes",
-        "query": "vintage graphic tee under $30",
+        "queries": [
+            "vintage graphic tee under $30",
+            "retro band shirt",
+            "cozy hoodie under $40",
+            "chunky white sneakers",
+            "y2k top size S",
+        ],
         "wardrobe": "example",
         "criterion": 1,
     },
     {
-        # A query nothing can match. Criterion 2 — the branch.
+        # Criterion 2 — the branch. Five impossible queries, each blocked by a
+        # different thing: keywords, price, size, size, price. The message
+        # should point at the one that's blocking.
         "name": "impossible query stops early",
-        "query": "designer ballgown size XXS under $5",
+        "queries": [
+            "designer ballgown size XXS under $5",
+            "bomber jacket under $20",
+            "velvet blazer size XL",
+            "chelsea boots size S",
+            "silk slip dress under $10",
+        ],
         "wardrobe": "example",
         "criterion": 2,
+    },
+    {
+        # Criterion 3 — state. Any matching query works; what's checked is the
+        # listing id at each handoff, read from the session and the trace.
+        "name": "selected item is the one passed on",
+        "query": "denim jacket under $50",
+        "wardrobe": "example",
+        "criterion": 3,
+    },
+    {
+        # Criterion 4 — the fit card. The same query every try, so the same item
+        # (Velvet Blazer, $52, depop) goes into create_fit_card five times.
+        "name": "fit card is a caption and varies",
+        "query": "velvet blazer",
+        "wardrobe": "example",
+        "criterion": 4,
+    },
+    {
+        # Criterion 5 — filters. Five queries, each with a size and a max_price.
+        # Each size has a near miss in the data: S vs S/M, L vs XL and L/XL,
+        # M vs M/L, W28 vs W27/W29.
+        "name": "filters are respected",
+        "queries": [
+            "tee size S under $20",
+            "vintage top size L under $25",
+            "jacket size M under $40",
+            "blazer size S under $60",
+            "jeans size W28 under $35",
+        ],
+        "wardrobe": "example",
+        "criterion": 5,
     },
     {
         # A user with nothing saved. One of unit 4's three failure modes.
@@ -35,28 +81,26 @@ SCENARIOS = [
         "wardrobe": "empty",
         "criterion": None,
     },
-    # TODO: add what your criteria 3, 4 and 5 need.
-    #
-    # Set "criterion" to the number in criteria.md that the scenario tests.
-    # "criterion": None means a diagnostic run — useful to have, but it isn't
-    # one of your five, and run_eval.py marks it as such in the table.
-    #
-    # For a state criterion, any normal query works — what you're checking is
-    # what ends up in the session, not what the user typed.
-    #
-    # For a fit-card criterion, you probably want the SAME query listed more
-    # than once, or several different items, depending on what your criterion
-    # actually says.
 ]
 
 WARDROBES = ("example", "empty")
+
+
+def query_for(scenario: dict, attempt: int) -> str:
+    """The query for one try. A scenario has either one "query" used on every
+    try, or a "queries" list with one per try (try 1 gets the first)."""
+    if scenario.get("queries"):
+        queries = scenario["queries"]
+        return queries[(attempt - 1) % len(queries)]
+    return scenario["query"]
 
 
 def validate() -> list[str]:
     """Complain about anything malformed, before a long run rather than during."""
     problems = []
     for i, scenario in enumerate(SCENARIOS, 1):
-        if not scenario.get("query", "").strip():
+        queries = scenario.get("queries") or [scenario.get("query", "")]
+        if not all(q.strip() for q in queries):
             problems.append(f"scenario {i} has no query")
         if scenario.get("wardrobe") not in WARDROBES:
             problems.append(

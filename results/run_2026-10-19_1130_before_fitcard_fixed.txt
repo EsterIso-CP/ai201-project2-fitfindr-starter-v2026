@@ -1,0 +1,27 @@
+Criterion 4, as written: create_fit_card x5, same item AND same outfit, cache off.
+item: lst_036 Velvet Blazer — Emerald Green ($52, depop); outfit: try 1's from run_2026-10-19_1130_before
+
+try 1: PASS
+  Still screaming over finding this emerald velvet blazer on depop for just $52.00! It's giving rich-mom-running-errands when I throw it over wide-leg trousers, but equally as good with baggy denim and combat boots for that effortless streetwear vibe. Grab it before I change my mind and keep it forever!
+
+try 2: PASS
+  Still screaming that I found this emerald velvet blazer on Depop for $52. It’s giving rich-mom-running-errands with wide-leg trousers, but also looks insanely good thrown over baggy denim and combat boots for a cool-girl streetwear vibe. Grab it before I change my mind and keep it. #thriftfind #depopshop
+
+try 3: PASS
+  Found the absolute crown jewel of my closet rotation—this emerald velvet blazer—sitting on Depop for just $52.00. It gives major vintage rich-mom-running-errands energy when thrown over some wide-leg trousers, but looks equally insane dressed down with baggy denim and combat boots. Grab it before it’s gone! #thriftedstyle #depopfinds
+
+try 4: PASS
+  Still kicking myself for finding this emerald velvet blazer on Depop for just $52. It’s giving total rich-mom-running-errands when thrown over baggy jeans and a white tank, but I'm obsessed. Grab it before I change my mind and keep it! #thriftfinds
+
+try 5: PASS
+  Found the ultimate emerald green velvet blazer on depop for $52 and I’m literally never taking it off. Giving major rich-mom-running-errands energy when thrown over baggy denim, but equally obsessed with dressing it up. Grab it before I change my mind! #thriftfinds #depop
+
+4(a): 5/5 · 4(b): 5 distinct of 5
+
+Re-scored with score_run.py's plain platform rule (hashtags count as mentions):
+try 1: PASS
+try 2: FAIL platform 'depop' appears 2×
+try 3: FAIL platform 'depop' appears 2×
+try 4: PASS
+try 5: FAIL platform 'depop' appears 2×
+4(a): 2/5 · 4(b): 5 distinct of 5

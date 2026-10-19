@@ -1,0 +1,3605 @@
+[
+  {
+    "scenario": {
+      "name": "matching query completes",
+      "queries": [
+        "vintage graphic tee under $30",
+        "retro band shirt",
+        "cozy hoodie under $40",
+        "chunky white sneakers",
+        "y2k top size S"
+      ],
+      "wardrobe": "example",
+      "criterion": 1
+    },
+    "tries": [
+      {
+        "query": "vintage graphic tee under $30",
+        "error": null,
+        "session": {
+          "query": "vintage graphic tee under $30",
+          "parsed": {
+            "description": "vintage graphic tee",
+            "size": null,
+            "max_price": 30.0
+          },
+          "search_results": [
+            {
+              "id": "lst_033",
+              "title": "Vintage Band Tee \u2014 Faded Grey",
+              "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "grunge",
+                "band tee",
+                "graphic tee",
+                "streetwear"
+              ],
+              "size": "L",
+              "condition": "fair",
+              "price": 19.0,
+              "colors": [
+                "grey",
+                "charcoal"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_006",
+              "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+              "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+              "category": "tops",
+              "style_tags": [
+                "graphic tee",
+                "vintage",
+                "grunge",
+                "streetwear",
+                "band tee"
+              ],
+              "size": "L",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "black"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_002",
+              "title": "Y2K Baby Tee \u2014 Butterfly Print",
+              "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+              "category": "tops",
+              "style_tags": [
+                "y2k",
+                "vintage",
+                "graphic tee",
+                "cottagecore"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 18.0,
+              "colors": [
+                "white",
+                "pink",
+                "purple"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_015",
+              "title": "Vintage Graphic Hoodie \u2014 Faded Black",
+              "description": "Faded black pullover hoodie with barely-visible vintage graphic on the chest. Cozy interior. Some pilling but adds to the worn-in look.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "grunge",
+                "graphic",
+                "streetwear"
+              ],
+              "size": "L",
+              "condition": "fair",
+              "price": 26.0,
+              "colors": [
+                "black",
+                "charcoal"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_012",
+              "title": "Oversized Crewneck Sweatshirt \u2014 Vintage Navy",
+              "description": "Perfectly faded navy crewneck. Genuinely vintage \u2014 not manufactured distressed. Ribbed cuffs and hem. No graphics, clean.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "basics",
+                "oversized",
+                "classic"
+              ],
+              "size": "XL (fits oversized)",
+              "condition": "good",
+              "price": 20.0,
+              "colors": [
+                "navy"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_017",
+              "title": "Mesh Long-Sleeve Top \u2014 Black",
+              "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
+              "category": "tops",
+              "style_tags": [
+                "y2k",
+                "grunge",
+                "goth",
+                "layering"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 15.0,
+              "colors": [
+                "black"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_024",
+              "title": "Vintage Polo Shirt \u2014 Forest Green",
+              "description": "Classic polo in forest green. Short sleeve, ribbed collar. Slightly boxy. The kind of piece that goes with everything.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "preppy",
+                "classic",
+                "earth tones"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 18.0,
+              "colors": [
+                "green",
+                "forest green"
+              ],
+              "brand": "Ralph Lauren",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_030",
+              "title": "Vintage Knit Vest \u2014 Argyle Brown/Cream",
+              "description": "Classic argyle knit vest in brown and cream. Fits medium. V-neck. Ideal for the dark academia or preppy vintage aesthetic.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "preppy",
+                "knitwear",
+                "dark academia",
+                "earth tones"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 25.0,
+              "colors": [
+                "brown",
+                "cream",
+                "tan"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_014",
+              "title": "Leather Belt \u2014 Brown, Braided",
+              "description": "Genuine leather braided belt. Adjustable, multiple holes. Classic Western buckle. Can be dressed up or down.",
+              "category": "accessories",
+              "style_tags": [
+                "vintage",
+                "western",
+                "classic",
+                "earth tones"
+              ],
+              "size": "One Size (adjustable)",
+              "condition": "excellent",
+              "price": 12.0,
+              "colors": [
+                "brown"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_034",
+              "title": "Bucket Hat \u2014 Reversible, Brown Plaid",
+              "description": "Reversible bucket hat \u2014 plaid on one side, solid tan on the other. Unstructured brim. One size fits most.",
+              "category": "accessories",
+              "style_tags": [
+                "90s",
+                "streetwear",
+                "vintage",
+                "accessories"
+              ],
+              "size": "One Size",
+              "condition": "excellent",
+              "price": 14.0,
+              "colors": [
+                "brown",
+                "tan",
+                "plaid"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_033",
+            "title": "Vintage Band Tee \u2014 Faded Grey",
+            "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+            "category": "tops",
+            "style_tags": [
+              "vintage",
+              "grunge",
+              "band tee",
+              "graphic tee",
+              "streetwear"
+            ],
+            "size": "L",
+            "condition": "fair",
+            "price": 19.0,
+            "colors": [
+              "grey",
+              "charcoal"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Do it! That faded grey band tee is a grunge goldmine, and you've already got the ultimate wardrobe to style it with. \n\n**Outfit 1: Effortless Streetwear**\nTuck the vintage band tee into your high-waisted baggy straight-leg jeans with the brown leather belt. Throw on your vintage black denim jacket and finish with chunky white sneakers and the black crossbody bag. \n\n**Outfit 2: Grungy Contrast**\nPlay with textures by pairing the tee with your wide-leg khaki trousers. Layer your black cropped zip hoodie *over* it (leave it unzipped to show off the graphic!), and lace up your black combat boots for that effortless, cool-girl edge.",
+          "fit_card": "Found this vintage band tee on Depop for just $19.00 and it\u2019s honestly absolute grunge goldmine material. The fade on the grey is so good, I've already been living in it with baggy jeans and combat boots. #thrifted #depopfinds",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  vintage graphic tee under $30\n      out: {'description': 'vintage graphic tee', 'size': None, 'max_price': 30.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'vintage graphic tee', 'size': None, 'max_price': 30.0}\n      out: 10 items: Vintage Band Tee \u2014 Faded Grey, Graphic Tee \u2014 2003 Tour Bootleg Style, Y2K Baby Tee \u2014 Butterfly Print \u2026 +7 more\n      \u2192    branch: selected lst_033 Vintage Band Tee \u2014 Faded Grey\n[3] suggest_outfit\n      in:  new_item=lst_033 'Vintage Band Tee \u2014 Faded Grey', wardrobe=10 items\n      out: Do it! That faded grey band tee is a grunge goldmine, and you've already got the ultimate wardrobe to style it\u2026\n[4] create_fit_card\n      in:  new_item=lst_033 'Vintage Band Tee \u2014 Faded Grey', outfit=635 chars from step above\n      out: Found this vintage band tee on Depop for just $19.00 and it\u2019s honestly absolute grunge goldmine material. The \u2026",
+        "crashed": null
+      },
+      {
+        "query": "retro band shirt",
+        "error": null,
+        "session": {
+          "query": "retro band shirt",
+          "parsed": {
+            "description": "retro band shirt",
+            "size": null,
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_024",
+              "title": "Vintage Polo Shirt \u2014 Forest Green",
+              "description": "Classic polo in forest green. Short sleeve, ribbed collar. Slightly boxy. The kind of piece that goes with everything.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "preppy",
+                "classic",
+                "earth tones"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 18.0,
+              "colors": [
+                "green",
+                "forest green"
+              ],
+              "brand": "Ralph Lauren",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_033",
+              "title": "Vintage Band Tee \u2014 Faded Grey",
+              "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "grunge",
+                "band tee",
+                "graphic tee",
+                "streetwear"
+              ],
+              "size": "L",
+              "condition": "fair",
+              "price": 19.0,
+              "colors": [
+                "grey",
+                "charcoal"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_003",
+              "title": "Oversized Flannel Shirt \u2014 Plaid Red/Black",
+              "description": "Classic oversized flannel. Great layering piece. A few tiny pulls in the fabric but nothing visible when worn.",
+              "category": "tops",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "flannel",
+                "streetwear",
+                "layering"
+              ],
+              "size": "XL (oversized)",
+              "condition": "good",
+              "price": 22.0,
+              "colors": [
+                "red",
+                "black"
+              ],
+              "brand": "Woolrich",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_006",
+              "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+              "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+              "category": "tops",
+              "style_tags": [
+                "graphic tee",
+                "vintage",
+                "grunge",
+                "streetwear",
+                "band tee"
+              ],
+              "size": "L",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "black"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_024",
+            "title": "Vintage Polo Shirt \u2014 Forest Green",
+            "description": "Classic polo in forest green. Short sleeve, ribbed collar. Slightly boxy. The kind of piece that goes with everything.",
+            "category": "tops",
+            "style_tags": [
+              "vintage",
+              "preppy",
+              "classic",
+              "earth tones"
+            ],
+            "size": "M",
+            "condition": "good",
+            "price": 18.0,
+            "colors": [
+              "green",
+              "forest green"
+            ],
+            "brand": "Ralph Lauren",
+            "platform": "thredUp"
+          },
+          "outfit_suggestion": "Hey friend! You *definitely* need to grab that forest green polo\u2014it's such a timeless staple. \n\nHere are two ways to style it using pieces you already own:\n\n**1. Retro Campus:** Tuck the forest green polo into your **wide-leg khaki trousers**, and thread your **brown leather belt** through the waist. Finish it off with your **chunky white sneakers** and the **black crossbody bag** for an effortless, preppy throwback look. \n\n**2. Streetwear Prep:** Layer the polo unbuttoned over your **white ribbed tank top**, paired with your **baggy dark wash jeans**. Throw on your **black combat boots** and layer the **vintage black denim jacket** on top for some cool, textured contrast. \n\nYou'll get so much wear out of this piece!",
+          "fit_card": "Scored this forest green vintage polo on thredUp for just $18.00 and I\u2019m obsessed. It gives the ultimate preppy-meets-grunge vibe whether I dress it down with baggy denim or lean into the retro campus look. #thriftfind #styletips",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  retro band shirt\n      out: {'description': 'retro band shirt', 'size': None, 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'retro band shirt', 'size': None, 'max_price': None}\n      out: 5 items: Vintage Polo Shirt \u2014 Forest Green, Vintage Band Tee \u2014 Faded Grey, Oversized Flannel Shirt \u2014 Plaid Red/Black \u2026 +2 more\n      \u2192    branch: selected lst_024 Vintage Polo Shirt \u2014 Forest Green\n[3] suggest_outfit\n      in:  new_item=lst_024 'Vintage Polo Shirt \u2014 Forest Green', wardrobe=10 items\n      out: Hey friend! You *definitely* need to grab that forest green polo\u2014it's such a timeless staple.   Here are two w\u2026\n[4] create_fit_card\n      in:  new_item=lst_024 'Vintage Polo Shirt \u2014 Forest Green', outfit=726 chars from step above\n      out: Scored this forest green vintage polo on thredUp for just $18.00 and I\u2019m obsessed. It gives the ultimate prepp\u2026",
+        "crashed": null
+      },
+      {
+        "query": "cozy hoodie under $40",
+        "error": null,
+        "session": {
+          "query": "cozy hoodie under $40",
+          "parsed": {
+            "description": "cozy hoodie",
+            "size": null,
+            "max_price": 40.0
+          },
+          "search_results": [
+            {
+              "id": "lst_015",
+              "title": "Vintage Graphic Hoodie \u2014 Faded Black",
+              "description": "Faded black pullover hoodie with barely-visible vintage graphic on the chest. Cozy interior. Some pilling but adds to the worn-in look.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "grunge",
+                "graphic",
+                "streetwear"
+              ],
+              "size": "L",
+              "condition": "fair",
+              "price": 26.0,
+              "colors": [
+                "black",
+                "charcoal"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_008",
+              "title": "Knit Cardigan \u2014 Chunky Brown",
+              "description": "Super cozy oversized cardigan. Earth-tone brown, chunky knit. Hits at the hip. Perfect for layering over anything.",
+              "category": "tops",
+              "style_tags": [
+                "cottagecore",
+                "cozy",
+                "oversized",
+                "earth tones",
+                "knitwear"
+              ],
+              "size": "One Size / Oversized",
+              "condition": "excellent",
+              "price": 35.0,
+              "colors": [
+                "brown",
+                "tan"
+              ],
+              "brand": null,
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_015",
+            "title": "Vintage Graphic Hoodie \u2014 Faded Black",
+            "description": "Faded black pullover hoodie with barely-visible vintage graphic on the chest. Cozy interior. Some pilling but adds to the worn-in look.",
+            "category": "tops",
+            "style_tags": [
+              "vintage",
+              "grunge",
+              "graphic",
+              "streetwear"
+            ],
+            "size": "L",
+            "condition": "fair",
+            "price": 26.0,
+            "colors": [
+              "black",
+              "charcoal"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Hey bestie! Oh, grab that vintage hoodie\u2014a faded black graphic piece is the ultimate grunge staple! Here are two ways to style it using your current wardrobe:\n\n**Look 1: Effortless Streetwear**\nPair the vintage graphic hoodie with your **baggy dark wash straight-leg jeans** for that perfect slouchy silhouette. Lace up your **black combat boots** and sling your **black crossbody bag** across your chest. Toss your **slightly cropped black denim jacket** over top if it gets chilly. \n\n**Look 2: Edgy Contrast**\nToss the hoodie over your **white ribbed tank top** (let the white hem peek out!), and pair it with your **wide-leg khaki trousers**. Cinch the waist with your **brown leather belt** to anchor the earth tones, and finish it with your **chunky white sneakers**. \n\nSo good! Which one are you wearing first?",
+          "fit_card": "Still not over finding this vintage graphic hoodie on Depop for just $26. It\u2019s got that perfect sun-faded black wash and heavy slouchy vibe that makes any lazy outfit look instantly cool. Honestly living in this thing all fall. #thrifted #grunge",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  cozy hoodie under $40\n      out: {'description': 'cozy hoodie', 'size': None, 'max_price': 40.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'cozy hoodie', 'size': None, 'max_price': 40.0}\n      out: 2 items: Vintage Graphic Hoodie \u2014 Faded Black, Knit Cardigan \u2014 Chunky Brown\n      \u2192    branch: selected lst_015 Vintage Graphic Hoodie \u2014 Faded Black\n[3] suggest_outfit\n      in:  new_item=lst_015 'Vintage Graphic Hoodie \u2014 Faded Black', wardrobe=10 items\n      out: Hey bestie! Oh, grab that vintage hoodie\u2014a faded black graphic piece is the ultimate grunge staple! Here are t\u2026\n[4] create_fit_card\n      in:  new_item=lst_015 'Vintage Graphic Hoodie \u2014 Faded Black', outfit=816 chars from step above\n      out: Still not over finding this vintage graphic hoodie on Depop for just $26. It\u2019s got that perfect sun-faded blac\u2026",
+        "crashed": null
+      },
+      {
+        "query": "chunky white sneakers",
+        "error": null,
+        "session": {
+          "query": "chunky white sneakers",
+          "parsed": {
+            "description": "chunky white sneakers",
+            "size": null,
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_019",
+              "title": "Platform Sneakers \u2014 White Chunky Sole",
+              "description": "White chunky platform sneakers. Very late 90s / early 2000s energy. Velcro straps. True to size. Some sole yellowing.",
+              "category": "shoes",
+              "style_tags": [
+                "y2k",
+                "platform",
+                "90s",
+                "streetwear"
+              ],
+              "size": "US 8",
+              "condition": "good",
+              "price": 48.0,
+              "colors": [
+                "white"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_035",
+              "title": "Low-Top Canvas Sneakers \u2014 Off-White",
+              "description": "Classic low-top canvas sneakers in off-white. Very minimal. Some light yellowing on the sole edges from age. Size 9.",
+              "category": "shoes",
+              "style_tags": [
+                "classic",
+                "minimal",
+                "streetwear",
+                "basics"
+              ],
+              "size": "US 9",
+              "condition": "good",
+              "price": 20.0,
+              "colors": [
+                "off-white",
+                "cream"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_008",
+              "title": "Knit Cardigan \u2014 Chunky Brown",
+              "description": "Super cozy oversized cardigan. Earth-tone brown, chunky knit. Hits at the hip. Perfect for layering over anything.",
+              "category": "tops",
+              "style_tags": [
+                "cottagecore",
+                "cozy",
+                "oversized",
+                "earth tones",
+                "knitwear"
+              ],
+              "size": "One Size / Oversized",
+              "condition": "excellent",
+              "price": 35.0,
+              "colors": [
+                "brown",
+                "tan"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_002",
+              "title": "Y2K Baby Tee \u2014 Butterfly Print",
+              "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+              "category": "tops",
+              "style_tags": [
+                "y2k",
+                "vintage",
+                "graphic tee",
+                "cottagecore"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 18.0,
+              "colors": [
+                "white",
+                "pink",
+                "purple"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_023",
+              "title": "Crochet Halter Top \u2014 Cream",
+              "description": "Handmade-looking crochet halter. Ties at the neck and back. Perfect for layering over a tank in summer.",
+              "category": "tops",
+              "style_tags": [
+                "cottagecore",
+                "boho",
+                "crochet",
+                "summer"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 22.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_018",
+              "title": "Vintage Linen Blazer \u2014 Cream",
+              "description": "Lightweight linen blazer in cream. Relaxed fit, unstructured shoulders. Two front pockets. Could be dressed up or styled casually.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "linen",
+                "cottagecore",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 38.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_019",
+            "title": "Platform Sneakers \u2014 White Chunky Sole",
+            "description": "White chunky platform sneakers. Very late 90s / early 2000s energy. Velcro straps. True to size. Some sole yellowing.",
+            "category": "shoes",
+            "style_tags": [
+              "y2k",
+              "platform",
+              "90s",
+              "streetwear"
+            ],
+            "size": "US 8",
+            "condition": "good",
+            "price": 48.0,
+            "colors": [
+              "white"
+            ],
+            "brand": null,
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Oh, you *need* these platform sneakers! They\u2019re the ultimate Y2K touch and will look amazing with what you already own. \n\n**Look 1: Off-Duty Streetwear**\nPair the platform sneakers with your **baggy dark wash jeans** and the **black cropped zip hoodie**. The chunky sole will give those wide jeans the *exact* right drape so they don't drag, and the cropped top balances the volume. Toss on your **black crossbody bag** and you're good to go.\n\n**Look 2: Effortless Cool**\nRock the platforms with your **wide-leg khaki trousers** and the **white ribbed tank top**, layered under your **vintage black denim jacket**. It\u2019s giving 90s model-off-duty realness\u2014super comfortable, perfectly balanced, and endlessly wearable. \n\nAdd them to cart!",
+          "fit_card": "Scored these chunky white platform sneakers on Poshmark for just $48 and I am officially in my 90s model-off-duty era. They give the exact right drape to my baggy denim and are way too comfortable to only wear one way. \ud83d\udc5f\u2728",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  chunky white sneakers\n      out: {'description': 'chunky white sneakers', 'size': None, 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'chunky white sneakers', 'size': None, 'max_price': None}\n      out: 7 items: Platform Sneakers \u2014 White Chunky Sole, Low-Top Canvas Sneakers \u2014 Off-White, Knit Cardigan \u2014 Chunky Brown \u2026 +4 more\n      \u2192    branch: selected lst_019 Platform Sneakers \u2014 White Chunky Sole\n[3] suggest_outfit\n      in:  new_item=lst_019 'Platform Sneakers \u2014 White Chunky Sole', wardrobe=10 items\n      out: Oh, you *need* these platform sneakers! They\u2019re the ultimate Y2K touch and will look amazing with what you alr\u2026\n[4] create_fit_card\n      in:  new_item=lst_019 'Platform Sneakers \u2014 White Chunky Sole', outfit=737 chars from step above\n      out: Scored these chunky white platform sneakers on Poshmark for just $48 and I am officially in my 90s model-off-d\u2026",
+        "crashed": null
+      },
+      {
+        "query": "y2k top size S",
+        "error": null,
+        "session": {
+          "query": "y2k top size S",
+          "parsed": {
+            "description": "y2k top",
+            "size": "S",
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_017",
+              "title": "Mesh Long-Sleeve Top \u2014 Black",
+              "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
+              "category": "tops",
+              "style_tags": [
+                "y2k",
+                "grunge",
+                "goth",
+                "layering"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 15.0,
+              "colors": [
+                "black"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_002",
+              "title": "Y2K Baby Tee \u2014 Butterfly Print",
+              "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+              "category": "tops",
+              "style_tags": [
+                "y2k",
+                "vintage",
+                "graphic tee",
+                "cottagecore"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 18.0,
+              "colors": [
+                "white",
+                "pink",
+                "purple"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_023",
+              "title": "Crochet Halter Top \u2014 Cream",
+              "description": "Handmade-looking crochet halter. Ties at the neck and back. Perfect for layering over a tank in summer.",
+              "category": "tops",
+              "style_tags": [
+                "cottagecore",
+                "boho",
+                "crochet",
+                "summer"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 22.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_026",
+              "title": "Biker Shorts \u2014 Black, Shiny",
+              "description": "Shiny black biker shorts in a slightly glossy material. High-waisted. Y2K-coded. Can be styled athletic or fashion.",
+              "category": "bottoms",
+              "style_tags": [
+                "y2k",
+                "athletic",
+                "streetwear",
+                "2000s"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 14.0,
+              "colors": [
+                "black"
+              ],
+              "brand": null,
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_017",
+            "title": "Mesh Long-Sleeve Top \u2014 Black",
+            "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
+            "category": "tops",
+            "style_tags": [
+              "y2k",
+              "grunge",
+              "goth",
+              "layering"
+            ],
+            "size": "S/M",
+            "condition": "excellent",
+            "price": 15.0,
+            "colors": [
+              "black"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Hey babe! That mesh top is an absolute steal\u2014it\u2019ll instantly level up your wardrobe. Here are two ways to style it with what you already own:\n\n**Look 1: 90s Grunge**\nLayer the mesh top *over* your **white ribbed tank top** (trust me, the sheer contrast looks so good) and pair them with your **baggy dark wash jeans** and **black combat boots**. Throw on your **vintage black denim jacket** to finish it off. \n\n**Look 2: Model-Off-Duty**\nWear the mesh top solo under your **black cropped zip hoodie** with your **wide-leg khaki trousers** and **chunky white sneakers**. Grab your **black crossbody bag** and you're out the door looking effortlessly cool. \n\nGo snag it!",
+          "fit_card": "Still buzzing about scoring this black mesh long-sleeve top on Depop for just $15. It gives off the ultimate effortless model-off-duty vibe layered under a hoodie, but looks equally insane over a white tank for that 90s grunge feel. Honestly such a steal for my wardrobe. #thriftfind #depop",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  y2k top size S\n      out: {'description': 'y2k top', 'size': 'S', 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'y2k top', 'size': 'S', 'max_price': None}\n      out: 4 items: Mesh Long-Sleeve Top \u2014 Black, Y2K Baby Tee \u2014 Butterfly Print, Crochet Halter Top \u2014 Cream \u2026 +1 more\n      \u2192    branch: selected lst_017 Mesh Long-Sleeve Top \u2014 Black\n[3] suggest_outfit\n      in:  new_item=lst_017 'Mesh Long-Sleeve Top \u2014 Black', wardrobe=10 items\n      out: Hey babe! That mesh top is an absolute steal\u2014it\u2019ll instantly level up your wardrobe. Here are two ways to styl\u2026\n[4] create_fit_card\n      in:  new_item=lst_017 'Mesh Long-Sleeve Top \u2014 Black', outfit=668 chars from step above\n      out: Still buzzing about scoring this black mesh long-sleeve top on Depop for just $15. It gives off the ultimate e\u2026",
+        "crashed": null
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "name": "impossible query stops early",
+      "queries": [
+        "designer ballgown size XXS under $5",
+        "bomber jacket under $20",
+        "velvet blazer size XL",
+        "chelsea boots size S",
+        "silk slip dress under $10"
+      ],
+      "wardrobe": "example",
+      "criterion": 2
+    },
+    "tries": [
+      {
+        "query": "designer ballgown size XXS under $5",
+        "error": null,
+        "session": {
+          "query": "designer ballgown size XXS under $5",
+          "parsed": {
+            "description": "designer ballgown",
+            "size": "XXS",
+            "max_price": 5.0
+          },
+          "search_results": [],
+          "selected_item": null,
+          "outfit_suggestion": null,
+          "fit_card": null,
+          "error": "Nothing matched 'designer ballgown' in size XXS and under $5. Try different or fewer keywords, like 'tee' instead of 'vintage graphic tee'."
+        },
+        "trace": "[1] parse_query\n      in:  designer ballgown size XXS under $5\n      out: {'description': 'designer ballgown', 'size': 'XXS', 'max_price': 5.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'designer ballgown', 'size': 'XXS', 'max_price': 5.0}\n      out: [] (empty)\n      \u2192    branch: empty, stopping before suggest_outfit",
+        "crashed": null
+      },
+      {
+        "query": "bomber jacket under $20",
+        "error": null,
+        "session": {
+          "query": "bomber jacket under $20",
+          "parsed": {
+            "description": "bomber jacket",
+            "size": null,
+            "max_price": 20.0
+          },
+          "search_results": [],
+          "selected_item": null,
+          "outfit_suggestion": null,
+          "fit_card": null,
+          "error": "Nothing matched 'bomber jacket' in under $20. 4 listing(s) match if you raise the price limit (the cheapest is $33)."
+        },
+        "trace": "[1] parse_query\n      in:  bomber jacket under $20\n      out: {'description': 'bomber jacket', 'size': None, 'max_price': 20.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'bomber jacket', 'size': None, 'max_price': 20.0}\n      out: [] (empty)\n      \u2192    branch: empty, stopping before suggest_outfit",
+        "crashed": null
+      },
+      {
+        "query": "velvet blazer size XL",
+        "error": null,
+        "session": {
+          "query": "velvet blazer size XL",
+          "parsed": {
+            "description": "velvet blazer",
+            "size": "XL",
+            "max_price": null
+          },
+          "search_results": [],
+          "selected_item": null,
+          "outfit_suggestion": null,
+          "fit_card": null,
+          "error": "Nothing matched 'velvet blazer' in size XL. 2 listing(s) match if you drop the size filter (try a different size than xl)."
+        },
+        "trace": "[1] parse_query\n      in:  velvet blazer size XL\n      out: {'description': 'velvet blazer', 'size': 'XL', 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'velvet blazer', 'size': 'XL', 'max_price': None}\n      out: [] (empty)\n      \u2192    branch: empty, stopping before suggest_outfit",
+        "crashed": null
+      },
+      {
+        "query": "chelsea boots size S",
+        "error": null,
+        "session": {
+          "query": "chelsea boots size S",
+          "parsed": {
+            "description": "chelsea boots",
+            "size": "S",
+            "max_price": null
+          },
+          "search_results": [],
+          "selected_item": null,
+          "outfit_suggestion": null,
+          "fit_card": null,
+          "error": "Nothing matched 'chelsea boots' in size S. 1 listing(s) match if you drop the size filter (try a different size than s)."
+        },
+        "trace": "[1] parse_query\n      in:  chelsea boots size S\n      out: {'description': 'chelsea boots', 'size': 'S', 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'chelsea boots', 'size': 'S', 'max_price': None}\n      out: [] (empty)\n      \u2192    branch: empty, stopping before suggest_outfit",
+        "crashed": null
+      },
+      {
+        "query": "silk slip dress under $10",
+        "error": null,
+        "session": {
+          "query": "silk slip dress under $10",
+          "parsed": {
+            "description": "silk slip dress",
+            "size": null,
+            "max_price": 10.0
+          },
+          "search_results": [],
+          "selected_item": null,
+          "outfit_suggestion": null,
+          "fit_card": null,
+          "error": "Nothing matched 'silk slip dress' in under $10. 2 listing(s) match if you raise the price limit (the cheapest is $28)."
+        },
+        "trace": "[1] parse_query\n      in:  silk slip dress under $10\n      out: {'description': 'silk slip dress', 'size': None, 'max_price': 10.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'silk slip dress', 'size': None, 'max_price': 10.0}\n      out: [] (empty)\n      \u2192    branch: empty, stopping before suggest_outfit",
+        "crashed": null
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "name": "selected item is the one passed on",
+      "query": "denim jacket under $50",
+      "wardrobe": "example",
+      "criterion": 3
+    },
+    "tries": [
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey friend! You *definitely* need to grab that Wrangler jacket\u2014light-wash denim is such a versatile staple. \n\nHere are two ways to style it straight from your closet:\n\n**Look 1: The Ultimate Denim-on-Denim**\nPair the light-wash jacket with your **white ribbed tank top** tucked into those **baggy dark wash jeans** and the **brown leather belt**. Throw on the **chunky white sneakers** and your **black crossbody bag**. The light-and-dark denim contrast looks so effortlessly cool.\n\n**Look 2: Effortless Streetwear**\nLayer the jacket right over your **black cropped zip hoodie**, paired with the **wide-leg khaki trousers**. Finish it off with the **black combat boots** for that perfect mix of rugged and tailored. \n\nYou\u2019ll get so much wear out of this piece!",
+          "fit_card": "Obsessed is an understatement for this cropped light-wash denim jacket I just scored on Poshmark for $42. It has the absolute best 90s streetwear vibe and literally goes with every baggy pant I own. Can't wait to live in this all fall! #thriftfind #poshmarkstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=10 items\n      out: Hey friend! You *definitely* need to grab that Wrangler jacket\u2014light-wash denim is such a versatile staple.   \u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=760 chars from step above\n      out: Obsessed is an understatement for this cropped light-wash denim jacket I just scored on Poshmark for $42. It h\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe! Grab that Wrangler jacket\u2014it\u2019s going to look *so* good with what you already own. \n\n**Look 1: The Ultimate Denim-on-Denim**\nPair the light wash jacket with your **baggy dark wash jeans** and the **white ribbed tank top** tucked in. Add your **brown leather belt**, **chunky white sneakers**, and the **black crossbody bag**. The light-and-dark denim contrast is *chef's kiss* for effortless street style.\n\n**Look 2: Effortless Contrast**\nThrow the jacket over your **wide-leg khaki trousers** and the same **white ribbed tank top**. Finish with your **black combat boots** and **black crossbody bag** for a cool mix of earthy tones and classic denim. \n\nYou\u2019ll wear this on repeat!",
+          "fit_card": "Finally scored this light wash cropped denim jacket on Poshmark for $42 and I am never taking it off. It gives off the absolute best effortless 90s street style when thrown over a simple tank and baggy jeans. Definitely gonna be wearing this on repeat all season. #thriftfind #denimjacket",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=10 items\n      out: Hey babe! Grab that Wrangler jacket\u2014it\u2019s going to look *so* good with what you already own.   **Look 1: The Ul\u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=690 chars from step above\n      out: Finally scored this light wash cropped denim jacket on Poshmark for $42 and I am never taking it off. It gives\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe! You *definitely* need to grab that Wrangler jacket\u2014it\u2019s a vintage gem and will look so good with what you already own. \n\nHere are two effortless ways to style it:\n\n**Look 1: The Ultimate Denim-on-Denim**\nPair the light wash jacket with your **white ribbed tank top** tucked into your **baggy straight-leg dark wash jeans**. Add the **brown leather belt**, **chunky white sneakers**, and your **black crossbody bag**. The contrast between the light and dark denim is chef's kiss!\n\n**Look 2: Off-Duty Cool**\nThrow the jacket over your **black cropped zip hoodie** paired with the **wide-leg khaki trousers** and **black combat boots**. It plays with proportions so well and gives major 90s streetwear vibes.",
+          "fit_card": "Obsessed with this vintage cropped Wrangler jacket I just snagged on Poshmark for $42. The light wash is honestly the ultimate 90s off-duty vibe. Can't wait to throw it over a hoodie or style it with some baggy denim! #thriftfind #poshmarkstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=10 items\n      out: Hey babe! You *definitely* need to grab that Wrangler jacket\u2014it\u2019s a vintage gem and will look so good with wha\u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=715 chars from step above\n      out: Obsessed with this vintage cropped Wrangler jacket I just snagged on Poshmark for $42. The light wash is hones\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe, you *need* that Wrangler jacket! It\u2019s the ultimate vintage staple. \n\nHere are two effortless ways to style it using what you already own:\n\n**Look 1: High-Contrast Denim (The Model-Off-Duty Vibe)**\nPair your new light wash jacket with your **baggy dark wash jeans** and the **white ribbed tank top**. Finish it off with your **chunky white sneakers** and the **black crossbody bag**. The double-denim contrast looks so cool and intentional.\n\n**Look 2: Soft & Earthy (Casual Streetwear)**\nThrow the cropped jacket over your **wide-leg khaki trousers** and the **white ribbed tank top**, cinched with your **brown leather belt**. Step into your **black combat boots** to give the neutral, minimal outfit a little edge. \n\nTotal win for your closet!",
+          "fit_card": "Finally scored this cropped light wash denim jacket on Poshmark for $42 and I am obsessed with the model-off-duty vibe. It looks so good thrown over a white tank with baggy dark wash jeans and chunky sneakers. Total win for my closet! #thriftfind #denimstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=10 items\n      out: Hey babe, you *need* that Wrangler jacket! It\u2019s the ultimate vintage staple.   Here are two effortless ways to\u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=754 chars from step above\n      out: Finally scored this cropped light wash denim jacket on Poshmark for $42 and I am obsessed with the model-off-d\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe! Oh, you *have* to grab that Wrangler jacket\u2014it\u2019s such a staple! Here are two ways to style it with what you already own:\n\n**Look 1: Canadian Tuxedo, But Make It Cool**\nPair the light wash jacket with your baggy dark-wash jeans. Layer it right over your white ribbed tank top, and finish it off with your chunky white sneakers and the black crossbody bag. The contrast between the light and dark denim looks so effortless.\n\n**Look 2: Effortless Contrast**\nThrow the cropped jacket over your wide-leg khaki trousers and that same white ribbed tank. Add the brown leather belt and black combat boots to ground the earth tones. It\u2019s giving cool-girl casual perfection!",
+          "fit_card": "Scored this vintage Wrangler jacket on Poshmark for $42 and I'm obsessed with the wash. It\u2019s giving effortless 90s off-duty model, whether I throw it over baggy dark denim or chunky khaki trousers. Finally a staple piece I know I'll wear to death! #thriftfind #poshmarkstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=10 items\n      out: Hey babe! Oh, you *have* to grab that Wrangler jacket\u2014it\u2019s such a staple! Here are two ways to style it with w\u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=674 chars from step above\n      out: Scored this vintage Wrangler jacket on Poshmark for $42 and I'm obsessed with the wash. It\u2019s giving effortless\u2026",
+        "crashed": null
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "name": "fit card is a caption and varies",
+      "query": "velvet blazer",
+      "wardrobe": "example",
+      "criterion": 4
+    },
+    "tries": [
+      {
+        "query": "velvet blazer",
+        "error": null,
+        "session": {
+          "query": "velvet blazer",
+          "parsed": {
+            "description": "velvet blazer",
+            "size": null,
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_036",
+              "title": "Velvet Blazer \u2014 Emerald Green",
+              "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "statement",
+                "feminine",
+                "glam"
+              ],
+              "size": "S",
+              "condition": "good",
+              "price": 52.0,
+              "colors": [
+                "emerald",
+                "green"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_018",
+              "title": "Vintage Linen Blazer \u2014 Cream",
+              "description": "Lightweight linen blazer in cream. Relaxed fit, unstructured shoulders. Two front pockets. Could be dressed up or styled casually.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "linen",
+                "cottagecore",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 38.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_036",
+            "title": "Velvet Blazer \u2014 Emerald Green",
+            "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+            "category": "outerwear",
+            "style_tags": [
+              "vintage",
+              "statement",
+              "feminine",
+              "glam"
+            ],
+            "size": "S",
+            "condition": "good",
+            "price": 52.0,
+            "colors": [
+              "emerald",
+              "green"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Hey babe, you *need* this emerald velvet blazer! It\u2019s such a gorgeous statement piece. Here are two ways to style it using what you already own:\n\n**Look 1: High-Low Chic**\nPair the blazer with your **white ribbed tank top** tucked into those **baggy dark wash jeans**. Add your **black combat boots** and the **black crossbody bag**. The structure of the blazer instantly elevates the baggy denim for the ultimate cool-girl streetwear vibe.\n\n**Look 2: Effortless Glam**\nThrow the emerald blazer over your **white ribbed tank top** and pair it with the **wide-leg khaki trousers**. Cinch the waist with your **brown leather belt** and slip on your **chunky white sneakers**. It\u2019s giving rich-mom-running-errands, but make it vintage. \n\nGrab it before it\u2019s gone!",
+          "fit_card": "Still not over finding this emerald green velvet blazer on Depop for $52! It gives off the ultimate effortless vintage glam vibe when thrown over basic trousers, but looks equally good dressed down with baggy denim. Grab it before I change my mind and keep it! #thriftfinds #depop",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  velvet blazer\n      out: {'description': 'velvet blazer', 'size': None, 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'velvet blazer', 'size': None, 'max_price': None}\n      out: 2 items: Velvet Blazer \u2014 Emerald Green, Vintage Linen Blazer \u2014 Cream\n      \u2192    branch: selected lst_036 Velvet Blazer \u2014 Emerald Green\n[3] suggest_outfit\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', wardrobe=10 items\n      out: Hey babe, you *need* this emerald velvet blazer! It\u2019s such a gorgeous statement piece. Here are two ways to st\u2026\n[4] create_fit_card\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', outfit=760 chars from step above\n      out: Still not over finding this emerald green velvet blazer on Depop for $52! It gives off the ultimate effortless\u2026",
+        "crashed": null
+      },
+      {
+        "query": "velvet blazer",
+        "error": null,
+        "session": {
+          "query": "velvet blazer",
+          "parsed": {
+            "description": "velvet blazer",
+            "size": null,
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_036",
+              "title": "Velvet Blazer \u2014 Emerald Green",
+              "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "statement",
+                "feminine",
+                "glam"
+              ],
+              "size": "S",
+              "condition": "good",
+              "price": 52.0,
+              "colors": [
+                "emerald",
+                "green"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_018",
+              "title": "Vintage Linen Blazer \u2014 Cream",
+              "description": "Lightweight linen blazer in cream. Relaxed fit, unstructured shoulders. Two front pockets. Could be dressed up or styled casually.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "linen",
+                "cottagecore",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 38.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_036",
+            "title": "Velvet Blazer \u2014 Emerald Green",
+            "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+            "category": "outerwear",
+            "style_tags": [
+              "vintage",
+              "statement",
+              "feminine",
+              "glam"
+            ],
+            "size": "S",
+            "condition": "good",
+            "price": 52.0,
+            "colors": [
+              "emerald",
+              "green"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Oh, you *have* to grab that emerald velvet blazer\u2014it's gorgeous! Here are two fun ways to style it using what you already own:\n\n**Look 1: High-Low Streetwear**\nPair the blazer with your **baggy dark wash jeans** and the **white ribbed tank top** tucked in to show off the high waist. Slip on your **chunky white sneakers** and add the **black crossbody bag**. It\u2019s the ultimate effortless mix of glam and casual.\n\n**Look 2: Edgy Glam**\nToss the blazer over your **black cropped zip hoodie**, and pair it with your **wide-leg khaki trousers**. Finish the look with your **black combat boots**. The rich green velvet against the khaki and black creates such a cool, textured vibe!",
+          "fit_card": "Still not over scoring this emerald velvet blazer on depop for just $52. It adds the most dramatic, rich texture to literally anything in my closet. Honestly living in this piece all autumn. #thriftedstyle #depopfinds",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  velvet blazer\n      out: {'description': 'velvet blazer', 'size': None, 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'velvet blazer', 'size': None, 'max_price': None}\n      out: 2 items: Velvet Blazer \u2014 Emerald Green, Vintage Linen Blazer \u2014 Cream\n      \u2192    branch: selected lst_036 Velvet Blazer \u2014 Emerald Green\n[3] suggest_outfit\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', wardrobe=10 items\n      out: Oh, you *have* to grab that emerald velvet blazer\u2014it's gorgeous! Here are two fun ways to style it using what \u2026\n[4] create_fit_card\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', outfit=678 chars from step above\n      out: Still not over scoring this emerald velvet blazer on depop for just $52. It adds the most dramatic, rich textu\u2026",
+        "crashed": null
+      },
+      {
+        "query": "velvet blazer",
+        "error": null,
+        "session": {
+          "query": "velvet blazer",
+          "parsed": {
+            "description": "velvet blazer",
+            "size": null,
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_036",
+              "title": "Velvet Blazer \u2014 Emerald Green",
+              "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "statement",
+                "feminine",
+                "glam"
+              ],
+              "size": "S",
+              "condition": "good",
+              "price": 52.0,
+              "colors": [
+                "emerald",
+                "green"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_018",
+              "title": "Vintage Linen Blazer \u2014 Cream",
+              "description": "Lightweight linen blazer in cream. Relaxed fit, unstructured shoulders. Two front pockets. Could be dressed up or styled casually.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "linen",
+                "cottagecore",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 38.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_036",
+            "title": "Velvet Blazer \u2014 Emerald Green",
+            "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+            "category": "outerwear",
+            "style_tags": [
+              "vintage",
+              "statement",
+              "feminine",
+              "glam"
+            ],
+            "size": "S",
+            "condition": "good",
+            "price": 52.0,
+            "colors": [
+              "emerald",
+              "green"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Ooh, run, don\u2019t walk! That emerald velvet blazer is a total vintage gem. Here are two ways to style it using what you already own:\n\n**Look 1: High-Low Streetwear Glam**\nPair the blazer with your **baggy straight-leg dark wash jeans** and the **white ribbed tank top** tucked in to highlight the high waist. Slip on your **chunky white sneakers** and add the **black crossbody bag**. It\u2019s effortless, edgy, and the emerald green makes those casual denim vibes pop. \n\n**Look 2: Effortless Earth Tones**\nLayer the blazer over the same **white ribbed tank top**, but style it with your **wide-leg khaki trousers** and the **brown leather belt**. Finish with your **black combat boots** for a cool contrast. Total vintage luxury energy!",
+          "fit_card": "Still kicking myself for scoring this emerald green velvet blazer on Depop for just $52. It seriously screams 70s rockstar off-duty, whether I'm dressing it down with baggy denim and chunky sneakers or leaning into rich earth tones with wide-leg trousers. Pure vintage magic. #thriftfind #depopstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  velvet blazer\n      out: {'description': 'velvet blazer', 'size': None, 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'velvet blazer', 'size': None, 'max_price': None}\n      out: 2 items: Velvet Blazer \u2014 Emerald Green, Vintage Linen Blazer \u2014 Cream\n      \u2192    branch: selected lst_036 Velvet Blazer \u2014 Emerald Green\n[3] suggest_outfit\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', wardrobe=10 items\n      out: Ooh, run, don\u2019t walk! That emerald velvet blazer is a total vintage gem. Here are two ways to style it using w\u2026\n[4] create_fit_card\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', outfit=731 chars from step above\n      out: Still kicking myself for scoring this emerald green velvet blazer on Depop for just $52. It seriously screams \u2026",
+        "crashed": null
+      },
+      {
+        "query": "velvet blazer",
+        "error": null,
+        "session": {
+          "query": "velvet blazer",
+          "parsed": {
+            "description": "velvet blazer",
+            "size": null,
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_036",
+              "title": "Velvet Blazer \u2014 Emerald Green",
+              "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "statement",
+                "feminine",
+                "glam"
+              ],
+              "size": "S",
+              "condition": "good",
+              "price": 52.0,
+              "colors": [
+                "emerald",
+                "green"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_018",
+              "title": "Vintage Linen Blazer \u2014 Cream",
+              "description": "Lightweight linen blazer in cream. Relaxed fit, unstructured shoulders. Two front pockets. Could be dressed up or styled casually.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "linen",
+                "cottagecore",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 38.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_036",
+            "title": "Velvet Blazer \u2014 Emerald Green",
+            "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+            "category": "outerwear",
+            "style_tags": [
+              "vintage",
+              "statement",
+              "feminine",
+              "glam"
+            ],
+            "size": "S",
+            "condition": "good",
+            "price": 52.0,
+            "colors": [
+              "emerald",
+              "green"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Grab that emerald velvet blazer immediately\u2014it\u2019s an absolute vintage gem! Here are two ways to style it using your current wardrobe:\n\n**Outfit 1: High-Low Streetwear Glam**\nPair the velvet blazer with your **white ribbed tank top** tucked into your **baggy straight-leg jeans** (add the **brown leather belt** to pull it together). Slip on your **chunky white sneakers** and grab your **black crossbody bag**. It\u2019s the ultimate cool-girl mix of casual denim and luxe glam.\n\n**Outfit 2: Moody Earth Tones**\nLayer the blazer over your **wide-leg khaki trousers** and the **white ribbed tank top**. Lace up your **black combat boots** for an edgy contrast. The rich emerald green looks stunning against khaki and instantly elevates your basics!",
+          "fit_card": "Still screaming about finding this emerald velvet blazer on Depop for just $52. Honestly obsessed with how the rich color instantly elevates a basic white tank and baggy jeans. It gives the ultimate moody, cool-girl energy whether I'm dressing it down with sneakers or leaning into the grunge vibe with combat boots. #thriftfind #depopstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  velvet blazer\n      out: {'description': 'velvet blazer', 'size': None, 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'velvet blazer', 'size': None, 'max_price': None}\n      out: 2 items: Velvet Blazer \u2014 Emerald Green, Vintage Linen Blazer \u2014 Cream\n      \u2192    branch: selected lst_036 Velvet Blazer \u2014 Emerald Green\n[3] suggest_outfit\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', wardrobe=10 items\n      out: Grab that emerald velvet blazer immediately\u2014it\u2019s an absolute vintage gem! Here are two ways to style it using \u2026\n[4] create_fit_card\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', outfit=741 chars from step above\n      out: Still screaming about finding this emerald velvet blazer on Depop for just $52. Honestly obsessed with how the\u2026",
+        "crashed": null
+      },
+      {
+        "query": "velvet blazer",
+        "error": null,
+        "session": {
+          "query": "velvet blazer",
+          "parsed": {
+            "description": "velvet blazer",
+            "size": null,
+            "max_price": null
+          },
+          "search_results": [
+            {
+              "id": "lst_036",
+              "title": "Velvet Blazer \u2014 Emerald Green",
+              "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "statement",
+                "feminine",
+                "glam"
+              ],
+              "size": "S",
+              "condition": "good",
+              "price": 52.0,
+              "colors": [
+                "emerald",
+                "green"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_018",
+              "title": "Vintage Linen Blazer \u2014 Cream",
+              "description": "Lightweight linen blazer in cream. Relaxed fit, unstructured shoulders. Two front pockets. Could be dressed up or styled casually.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "linen",
+                "cottagecore",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 38.0,
+              "colors": [
+                "cream",
+                "off-white"
+              ],
+              "brand": null,
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_036",
+            "title": "Velvet Blazer \u2014 Emerald Green",
+            "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+            "category": "outerwear",
+            "style_tags": [
+              "vintage",
+              "statement",
+              "feminine",
+              "glam"
+            ],
+            "size": "S",
+            "condition": "good",
+            "price": 52.0,
+            "colors": [
+              "emerald",
+              "green"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Oh, absolutely buy it\u2014emerald velvet is a total power move! Here are two ways to style that gorgeous blazer using pieces you already own:\n\n**Look 1: High-Low Streetwear Glam**\nPair the velvet blazer with your **white ribbed tank top** tucked into your **baggy straight-leg jeans** (add the **brown leather belt** to tie it together). Slip on your **chunky white sneakers** and grab your **black crossbody bag**. It\u2019s the ultimate cool-girl mix of casual denim and rich, fancy texture.\n\n**Look 2: Edgy Contrast**\nLayer the blazer right over your **black cropped zip hoodie** for a killer mix of tailoring and sporty grunge, paired with your **wide-leg khaki trousers**. Finish with your **black combat boots** for an effortlessly chic, textured vibe.",
+          "fit_card": "Still kicking myself for scoring this emerald green velvet blazer for just $52 on depop. It\u2019s giving total rich-grunge energy whether I dress it down with baggy jeans and sneakers or throw it over a hoodie. Thrift magic is real. #thriftfind #depopstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  velvet blazer\n      out: {'description': 'velvet blazer', 'size': None, 'max_price': None}\n[2] search_listings (via MCP)\n      in:  {'description': 'velvet blazer', 'size': None, 'max_price': None}\n      out: 2 items: Velvet Blazer \u2014 Emerald Green, Vintage Linen Blazer \u2014 Cream\n      \u2192    branch: selected lst_036 Velvet Blazer \u2014 Emerald Green\n[3] suggest_outfit\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', wardrobe=10 items\n      out: Oh, absolutely buy it\u2014emerald velvet is a total power move! Here are two ways to style that gorgeous blazer us\u2026\n[4] create_fit_card\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', outfit=749 chars from step above\n      out: Still kicking myself for scoring this emerald green velvet blazer for just $52 on depop. It\u2019s giving total ric\u2026",
+        "crashed": null
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "name": "filters are respected",
+      "queries": [
+        "tee size S under $20",
+        "vintage top size L under $25",
+        "jacket size M under $40",
+        "blazer size S under $60",
+        "jeans size W28 under $35"
+      ],
+      "wardrobe": "example",
+      "criterion": 5
+    },
+    "tries": [
+      {
+        "query": "tee size S under $20",
+        "error": null,
+        "session": {
+          "query": "tee size S under $20",
+          "parsed": {
+            "description": "tee",
+            "size": "S",
+            "max_price": 20.0
+          },
+          "search_results": [
+            {
+              "id": "lst_002",
+              "title": "Y2K Baby Tee \u2014 Butterfly Print",
+              "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+              "category": "tops",
+              "style_tags": [
+                "y2k",
+                "vintage",
+                "graphic tee",
+                "cottagecore"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 18.0,
+              "colors": [
+                "white",
+                "pink",
+                "purple"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_017",
+              "title": "Mesh Long-Sleeve Top \u2014 Black",
+              "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
+              "category": "tops",
+              "style_tags": [
+                "y2k",
+                "grunge",
+                "goth",
+                "layering"
+              ],
+              "size": "S/M",
+              "condition": "excellent",
+              "price": 15.0,
+              "colors": [
+                "black"
+              ],
+              "brand": null,
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_002",
+            "title": "Y2K Baby Tee \u2014 Butterfly Print",
+            "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+            "category": "tops",
+            "style_tags": [
+              "y2k",
+              "vintage",
+              "graphic tee",
+              "cottagecore"
+            ],
+            "size": "S/M",
+            "condition": "excellent",
+            "price": 18.0,
+            "colors": [
+              "white",
+              "pink",
+              "purple"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Hey babe! You *definitely* need to grab that butterfly baby tee\u2014it\u2019s going to look so cute in your rotation! \n\nHere are two ways to style it with what you already own:\n\n**Look 1: Off-Duty Streetwear**\nPair the baby tee with your **baggy straight-leg dark wash jeans** and the **chunky white sneakers**. Throw your **vintage black denim jacket** over your shoulders and grab the **black crossbody bag** for an effortless Y2K model-off-duty vibe.\n\n**Look 2: Sweet & Edgy Contrast**\nTuck the tee into your **wide-leg khaki trousers**, cinch the waist with your **brown leather belt**, and lace up your **black combat boots** to toughen up the butterfly print. \n\nTotal win\u2014definitely add it to cart!",
+          "fit_card": "Still obsessing over this butterfly print baby tee I just scored on depop for only $18.00! Giving major model-off-duty vibes when I throw it on with baggy denim, but looks just as good toughened up with combat boots. Total closet win. \ud83e\udd8b\u2728",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  tee size S under $20\n      out: {'description': 'tee', 'size': 'S', 'max_price': 20.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'tee', 'size': 'S', 'max_price': 20.0}\n      out: 2 items: Y2K Baby Tee \u2014 Butterfly Print, Mesh Long-Sleeve Top \u2014 Black\n      \u2192    branch: selected lst_002 Y2K Baby Tee \u2014 Butterfly Print\n[3] suggest_outfit\n      in:  new_item=lst_002 'Y2K Baby Tee \u2014 Butterfly Print', wardrobe=10 items\n      out: Hey babe! You *definitely* need to grab that butterfly baby tee\u2014it\u2019s going to look so cute in your rotation!  \u2026\n[4] create_fit_card\n      in:  new_item=lst_002 'Y2K Baby Tee \u2014 Butterfly Print', outfit=695 chars from step above\n      out: Still obsessing over this butterfly print baby tee I just scored on depop for only $18.00! Giving major model-\u2026",
+        "crashed": null
+      },
+      {
+        "query": "vintage top size L under $25",
+        "error": null,
+        "session": {
+          "query": "vintage top size L under $25",
+          "parsed": {
+            "description": "vintage top",
+            "size": "L",
+            "max_price": 25.0
+          },
+          "search_results": [
+            {
+              "id": "lst_033",
+              "title": "Vintage Band Tee \u2014 Faded Grey",
+              "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+              "category": "tops",
+              "style_tags": [
+                "vintage",
+                "grunge",
+                "band tee",
+                "graphic tee",
+                "streetwear"
+              ],
+              "size": "L",
+              "condition": "fair",
+              "price": 19.0,
+              "colors": [
+                "grey",
+                "charcoal"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_006",
+              "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+              "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+              "category": "tops",
+              "style_tags": [
+                "graphic tee",
+                "vintage",
+                "grunge",
+                "streetwear",
+                "band tee"
+              ],
+              "size": "L",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "black"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_040",
+              "title": "Tie-Dye Long Sleeve \u2014 Pastel",
+              "description": "Hand tie-dyed long sleeve in soft pastel hues \u2014 pink, lavender, and mint. Oversized unisex fit. 100% cotton.",
+              "category": "tops",
+              "style_tags": [
+                "tie-dye",
+                "cottagecore",
+                "colorful",
+                "streetwear"
+              ],
+              "size": "L/XL",
+              "condition": "excellent",
+              "price": 17.0,
+              "colors": [
+                "pink",
+                "lavender",
+                "mint"
+              ],
+              "brand": null,
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_033",
+            "title": "Vintage Band Tee \u2014 Faded Grey",
+            "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+            "category": "tops",
+            "style_tags": [
+              "vintage",
+              "grunge",
+              "band tee",
+              "graphic tee",
+              "streetwear"
+            ],
+            "size": "L",
+            "condition": "fair",
+            "price": 19.0,
+            "colors": [
+              "grey",
+              "charcoal"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Oh, you *definitely* need to grab this band tee\u2014it\u2019s a vintage grunge dream! \n\n**Look 1: Effortless Streetwear**\nTuck the vintage band tee into your **baggy dark wash straight-leg jeans**, cinch them with the **brown leather belt**, and throw on your **black combat boots**. Toss your **black crossbody bag** across your chest and add the **vintage black denim jacket** over top for that ultimate effortless, lived-in edge. \n\n**Look 2: Casual Grunge Mix**\nPair the tee loose over your **wide-leg khaki trousers** for an awesome contrast of earth tones and faded charcoal. Lace up your **chunky white sneakers** to keep it grounded, and wear the **black cropped zip hoodie** open over your shoulders if you need an extra layer. Total no-brainer buy!",
+          "fit_card": "Still freaking out that I found this vintage band tee on depop for only $19.00. The fade on it is literally insane and gives off the best 90s grunge energy. Can't wait to style it with some baggy denim and beat-up boots. #thriftfind #depopshop",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  vintage top size L under $25\n      out: {'description': 'vintage top', 'size': 'L', 'max_price': 25.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'vintage top', 'size': 'L', 'max_price': 25.0}\n      out: 3 items: Vintage Band Tee \u2014 Faded Grey, Graphic Tee \u2014 2003 Tour Bootleg Style, Tie-Dye Long Sleeve \u2014 Pastel\n      \u2192    branch: selected lst_033 Vintage Band Tee \u2014 Faded Grey\n[3] suggest_outfit\n      in:  new_item=lst_033 'Vintage Band Tee \u2014 Faded Grey', wardrobe=10 items\n      out: Oh, you *definitely* need to grab this band tee\u2014it\u2019s a vintage grunge dream!   **Look 1: Effortless Streetwear\u2026\n[4] create_fit_card\n      in:  new_item=lst_033 'Vintage Band Tee \u2014 Faded Grey', outfit=748 chars from step above\n      out: Still freaking out that I found this vintage band tee on depop for only $19.00. The fade on it is literally in\u2026",
+        "crashed": null
+      },
+      {
+        "query": "jacket size M under $40",
+        "error": null,
+        "session": {
+          "query": "jacket size M under $40",
+          "parsed": {
+            "description": "jacket",
+            "size": "M",
+            "max_price": 40.0
+          },
+          "search_results": [
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_032",
+            "title": "Shacket \u2014 Olive Canvas",
+            "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+            "category": "outerwear",
+            "style_tags": [
+              "earth tones",
+              "classic",
+              "layering",
+              "minimal"
+            ],
+            "size": "M/L",
+            "condition": "excellent",
+            "price": 33.0,
+            "colors": [
+              "olive",
+              "green"
+            ],
+            "brand": null,
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey friend! Oh, you *have* to grab this olive canvas shacket\u2014it\u2019s the ultimate layering piece and will fit right into your closet. \n\n**Look 1: Casual Streetwear**\nThrow the shacket over your white ribbed tank top and baggy dark-wash jeans. Cinch your waist with the brown leather belt, and finish it off with your chunky white sneakers and black crossbody bag. Effortless and cool!\n\n**Look 2: Earthy Minimalist**\nLayer the shacket over your oversized grey crewneck sweatshirt paired with the wide-leg khaki trousers. Slip into your black combat boots to add a little edge to the soft earth tones. \n\nYou\u2019ll get so much wear out of this!",
+          "fit_card": "Score! Snagged this olive canvas shacket on Poshmark for just $33, and it\u2019s giving the absolute best utilitarian-earthy vibe. It\u2019s heavy enough to wear as a light jacket now, but slouchy enough to layer under my wool coat later this winter. Such a good win for the wardrobe rotation! #thriftfind #poshmarkstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  jacket size M under $40\n      out: {'description': 'jacket', 'size': 'M', 'max_price': 40.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'jacket', 'size': 'M', 'max_price': 40.0}\n      out: 1 items: Shacket \u2014 Olive Canvas\n      \u2192    branch: selected lst_032 Shacket \u2014 Olive Canvas\n[3] suggest_outfit\n      in:  new_item=lst_032 'Shacket \u2014 Olive Canvas', wardrobe=10 items\n      out: Hey friend! Oh, you *have* to grab this olive canvas shacket\u2014it\u2019s the ultimate layering piece and will fit rig\u2026\n[4] create_fit_card\n      in:  new_item=lst_032 'Shacket \u2014 Olive Canvas', outfit=635 chars from step above\n      out: Score! Snagged this olive canvas shacket on Poshmark for just $33, and it\u2019s giving the absolute best utilitari\u2026",
+        "crashed": null
+      },
+      {
+        "query": "blazer size S under $60",
+        "error": null,
+        "session": {
+          "query": "blazer size S under $60",
+          "parsed": {
+            "description": "blazer",
+            "size": "S",
+            "max_price": 60.0
+          },
+          "search_results": [
+            {
+              "id": "lst_036",
+              "title": "Velvet Blazer \u2014 Emerald Green",
+              "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+              "category": "outerwear",
+              "style_tags": [
+                "vintage",
+                "statement",
+                "feminine",
+                "glam"
+              ],
+              "size": "S",
+              "condition": "good",
+              "price": 52.0,
+              "colors": [
+                "emerald",
+                "green"
+              ],
+              "brand": null,
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_036",
+            "title": "Velvet Blazer \u2014 Emerald Green",
+            "description": "Stunning emerald green velvet blazer. Fitted cut, padded shoulders. Statement piece. Minor lint on the sleeves.",
+            "category": "outerwear",
+            "style_tags": [
+              "vintage",
+              "statement",
+              "feminine",
+              "glam"
+            ],
+            "size": "S",
+            "condition": "good",
+            "price": 52.0,
+            "colors": [
+              "emerald",
+              "green"
+            ],
+            "brand": null,
+            "platform": "depop"
+          },
+          "outfit_suggestion": "Oh, run, don\u2019t walk\u2014that emerald velvet blazer is an absolute treasure! It\u2019s the ultimate statement piece. \n\nHere are two ways to style it using what you already own:\n\n**Look 1: Effortless Street Glam**\nPair the blazer over your **white ribbed tank top** and **baggy straight-leg jeans** (add your **brown leather belt** to tie it together). Slip into the **chunky white sneakers** and grab your **black crossbody bag**. It\u2019s the ultimate high-low mix of casual denim and luxe glam.\n\n**Look 2: Edgy Contrast**\nLayer the blazer over your **black cropped zip hoodie** with the hood out, paired with your **wide-leg khaki trousers**. Lace up your **black combat boots** for a cool, unexpected twist on tailoring. \n\nYou\u2019ll get so much wear out of this!",
+          "fit_card": "Still not over scoring this emerald velvet blazer on depop for $52. Threw it on with baggy jeans and beat-up sneakers for that effortless high-low mix, but honestly it looks just as good layered over a hoodie and combat boots. Such an easy way to make lazy-day outfits look like I actually tried. #thriftedstyle #depopfinds",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  blazer size S under $60\n      out: {'description': 'blazer', 'size': 'S', 'max_price': 60.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'blazer', 'size': 'S', 'max_price': 60.0}\n      out: 1 items: Velvet Blazer \u2014 Emerald Green\n      \u2192    branch: selected lst_036 Velvet Blazer \u2014 Emerald Green\n[3] suggest_outfit\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', wardrobe=10 items\n      out: Oh, run, don\u2019t walk\u2014that emerald velvet blazer is an absolute treasure! It\u2019s the ultimate statement piece.   H\u2026\n[4] create_fit_card\n      in:  new_item=lst_036 'Velvet Blazer \u2014 Emerald Green', outfit=748 chars from step above\n      out: Still not over scoring this emerald velvet blazer on depop for $52. Threw it on with baggy jeans and beat-up s\u2026",
+        "crashed": null
+      },
+      {
+        "query": "jeans size W28 under $35",
+        "error": null,
+        "session": {
+          "query": "jeans size W28 under $35",
+          "parsed": {
+            "description": "jeans",
+            "size": "W28",
+            "max_price": 35.0
+          },
+          "search_results": [
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_037",
+            "title": "Straight Leg Black Jeans \u2014 Faded",
+            "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+            "category": "bottoms",
+            "style_tags": [
+              "vintage",
+              "classic",
+              "grunge",
+              "denim"
+            ],
+            "size": "W28",
+            "condition": "good",
+            "price": 30.0,
+            "colors": [
+              "black",
+              "faded black"
+            ],
+            "brand": "Levi's",
+            "platform": "thredUp"
+          },
+          "outfit_suggestion": "Hey babe! You *definitely* need to grab those faded Levi's\u2014they are a thrift store holy grail. \n\nHere are two effortless ways to style them using what\u2019s already in your closet:\n\n**1. 90s Grunge Off-Duty:** Pair the faded black jeans with your **black cropped zip hoodie** and **black combat boots**. Toss on your **black crossbody bag**, and you\u2019ve got an instant edgy, waist-defining look. \n\n**2. Casual Vintage Contrast:** Tuck your **white ribbed tank top** into the jeans, throw your **vintage black denim jacket** on top, and finish with your **chunky white sneakers**. It\u2019s classic, effortless, and plays so well with that faded black wash! \n\nGo snag 'em! \u2728",
+          "fit_card": "Scored these faded straight leg black jeans on thredUp for only $30, and the worn-in 90s grunge vibe is honestly unbeatable. They\u2019re so easy to just throw on with a hoodie and combat boots for that effortless off-duty look. #thriftedstyle #90sgrunge",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  jeans size W28 under $35\n      out: {'description': 'jeans', 'size': 'W28', 'max_price': 35.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'jeans', 'size': 'W28', 'max_price': 35.0}\n      out: 1 items: Straight Leg Black Jeans \u2014 Faded\n      \u2192    branch: selected lst_037 Straight Leg Black Jeans \u2014 Faded\n[3] suggest_outfit\n      in:  new_item=lst_037 'Straight Leg Black Jeans \u2014 Faded', wardrobe=10 items\n      out: Hey babe! You *definitely* need to grab those faded Levi's\u2014they are a thrift store holy grail.   Here are two \u2026\n[4] create_fit_card\n      in:  new_item=lst_037 'Straight Leg Black Jeans \u2014 Faded', outfit=663 chars from step above\n      out: Scored these faded straight leg black jeans on thredUp for only $30, and the worn-in 90s grunge vibe is honest\u2026",
+        "crashed": null
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "name": "empty wardrobe",
+      "query": "denim jacket under $50",
+      "wardrobe": "empty",
+      "criterion": null
+    },
+    "tries": [
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe, that Wrangler cropped denim jacket is an absolute vintage score! Light wash is so versatile, and the crop makes it super flattering. \n\nSince I don't know your closet yet, here are two foolproof ways to style it using everyday basics:\n\n**1. The Off-Duty Model:** Throw it over a simple black baby tee or tank, pair it with high-waisted black leggings or straight-leg trousers, and finish with clean white sneakers. Add some gold hoops to elevate the vibe.\n\n**2. Weekend Coffee Run:** Layer it over an oversized white hoodie or a comfy grey sweatshirt with the hood pulled out. Pair with relaxed-fit blue jeans for a cool, effortless Canadian tuxedo look. \n\nTrust me, you'll reach for this constantly!",
+          "fit_card": "Still buzzing over this vintage Wrangler denim jacket I just scored on Poshmark for $42. The light wash and cropped fit give off major off-duty model vibes, especially thrown over a simple baby tee and trousers. Trust me, this is about to become my most-worn piece. #thriftfind #poshmarkstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=0 items\n      out: Hey babe, that Wrangler cropped denim jacket is an absolute vintage score! Light wash is so versatile, and the\u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=709 chars from step above\n      out: Still buzzing over this vintage Wrangler denim jacket I just scored on Poshmark for $42. The light wash and cr\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe, that Wrangler cropped jacket is such a good find! Light wash denim is insanely versatile, and the cropped fit makes it super flattering. \n\nHere are two quick ways to style it with things you probably already own:\n\n1. **Off-Duty Cool:** Throw it over a basic white baby tee or tank, high-waisted black leggings or straight-leg jeans, and your favorite retro sneakers. Add a little claw clip and hoop earrings, and you\u2019re instantly put-together for coffee runs.\n2. **Sweet & Edgy:** Layer it over a simple black slip dress or a ribbed knit midi dress. Cinch it with a chunky belt, and finish with beat-up Converse or chunky loafers. \n\nTrust me, you'll wear this on repeat! Want it?",
+          "fit_card": "Just scored the ultimate light wash cropped denim jacket on Poshmark for $42 and I'm obsessed. It gives off major off-duty cool vibes whether I'm throwing it over a baby tee for coffee runs or layering it over a slip dress. Trust me, you'll wear this on repeat! #thriftedstyle #poshmarkfinds",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=0 items\n      out: Hey babe, that Wrangler cropped jacket is such a good find! Light wash denim is insanely versatile, and the cr\u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=689 chars from step above\n      out: Just scored the ultimate light wash cropped denim jacket on Poshmark for $42 and I'm obsessed. It gives off ma\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe, oh, you *have* to grab that Wrangler jacket! A light-wash cropped denim piece is the ultimate wardrobe MVP. \n\nFor an effortless off-duty look, throw it over a basic white baby tee, high-waisted black leggings or straight-leg jeans, and your favorite retro sneakers. Add a little gold hoops, and you\u2019re instantly cool-girl chic. \n\nOr, lean into the contrast by layering it over a black slip dress or floral midi dress with chunky boots. The boxy, cropped fit balances out anything flowy so well. \n\nAt size S in excellent condition, it\u2019s a total steal. Run, don't walk!",
+          "fit_card": "Scored this vintage light wash cropped Wrangler jacket on Poshmark for $42 and I'm obsessed. It's the ultimate off-duty MVP piece to throw over a baby tee and retro sneakers for that effortless cool-girl vibe. Run, don't walk! #thriftyfinds #poshmarkstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=0 items\n      out: Hey babe, oh, you *have* to grab that Wrangler jacket! A light-wash cropped denim piece is the ultimate wardro\u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=577 chars from step above\n      out: Scored this vintage light wash cropped Wrangler jacket on Poshmark for $42 and I'm obsessed. It's the ultimate\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey babe! Oh, you *have* to grab that Wrangler jacket\u2014light wash denim is the ultimate wardrobe cheat code. \n\nSince it\u2019s cropped, it\u2019s all about playing with proportions. **Idea one:** Throw it over a basic white baby tee or ribbed tank, your favorite high-waisted mom jeans, and beat-up white sneakers for that effortlessly cool double-denim \"model off-duty\" look. \n\n**Idea two:** Channel instant street-style contrast by layering it over a breezy black slip dress or a simple cotton midi, paired with chunky boots. \n\nIt\u2019s one of those vintage pieces you\u2019ll literally reach for all year round. Totally worth the add-to-cart! \u2728\ud83d\udc56",
+          "fit_card": "Just scored the ultimate model off-duty look with this cropped light wash denim jacket! Found it on Poshmark for $42 and I'm already obsessed with throwing it over slip dresses and chunky boots for that effortless street-style contrast. \ud83d\udc56\u2728",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=0 items\n      out: Hey babe! Oh, you *have* to grab that Wrangler jacket\u2014light wash denim is the ultimate wardrobe cheat code.   \u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=628 chars from step above\n      out: Just scored the ultimate model off-duty look with this cropped light wash denim jacket! Found it on Poshmark f\u2026",
+        "crashed": null
+      },
+      {
+        "query": "denim jacket under $50",
+        "error": null,
+        "session": {
+          "query": "denim jacket under $50",
+          "parsed": {
+            "description": "denim jacket",
+            "size": null,
+            "max_price": 50.0
+          },
+          "search_results": [
+            {
+              "id": "lst_007",
+              "title": "Denim Jacket \u2014 Light Wash, Cropped",
+              "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+              "category": "outerwear",
+              "style_tags": [
+                "denim",
+                "vintage",
+                "classic",
+                "streetwear"
+              ],
+              "size": "S",
+              "condition": "excellent",
+              "price": 42.0,
+              "colors": [
+                "light blue"
+              ],
+              "brand": "Wrangler",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_016",
+              "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+              "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "denim",
+                "summer",
+                "classic"
+              ],
+              "size": "W27",
+              "condition": "good",
+              "price": 24.0,
+              "colors": [
+                "light blue",
+                "blue"
+              ],
+              "brand": "Levi's",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_038",
+              "title": "Denim Vest \u2014 Medium Wash, Studded",
+              "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+              "category": "outerwear",
+              "style_tags": [
+                "grunge",
+                "vintage",
+                "denim",
+                "customized",
+                "rock"
+              ],
+              "size": "M",
+              "condition": "good",
+              "price": 27.0,
+              "colors": [
+                "medium blue"
+              ],
+              "brand": null,
+              "platform": "depop"
+            },
+            {
+              "id": "lst_004",
+              "title": "90s Track Jacket \u2014 Navy/White Stripe",
+              "description": "Authentic 90s track jacket with stripe detail down the sleeves. Full zip. Lightweight \u2014 great for layering.",
+              "category": "outerwear",
+              "style_tags": [
+                "90s",
+                "vintage",
+                "athletic",
+                "streetwear"
+              ],
+              "size": "M",
+              "condition": "excellent",
+              "price": 45.0,
+              "colors": [
+                "navy",
+                "white"
+              ],
+              "brand": "Champion",
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_037",
+              "title": "Straight Leg Black Jeans \u2014 Faded",
+              "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "grunge",
+                "denim"
+              ],
+              "size": "W28",
+              "condition": "good",
+              "price": 30.0,
+              "colors": [
+                "black",
+                "faded black"
+              ],
+              "brand": "Levi's",
+              "platform": "thredUp"
+            },
+            {
+              "id": "lst_032",
+              "title": "Shacket \u2014 Olive Canvas",
+              "description": "Olive canvas shacket \u2014 thicker than a shirt, lighter than a jacket. Chest pockets, button-front. Great transitional layer.",
+              "category": "outerwear",
+              "style_tags": [
+                "earth tones",
+                "classic",
+                "layering",
+                "minimal"
+              ],
+              "size": "M/L",
+              "condition": "excellent",
+              "price": 33.0,
+              "colors": [
+                "olive",
+                "green"
+              ],
+              "brand": null,
+              "platform": "poshmark"
+            },
+            {
+              "id": "lst_001",
+              "title": "Vintage Levi's 501 Jeans \u2014 Medium Wash",
+              "description": "Classic 501s in a perfect medium wash. Some light fading at the knees which adds to the vintage look. No rips or stains.",
+              "category": "bottoms",
+              "style_tags": [
+                "vintage",
+                "classic",
+                "denim",
+                "streetwear"
+              ],
+              "size": "W30 L30",
+              "condition": "good",
+              "price": 38.0,
+              "colors": [
+                "blue",
+                "indigo"
+              ],
+              "brand": "Levi's",
+              "platform": "depop"
+            }
+          ],
+          "selected_item": {
+            "id": "lst_007",
+            "title": "Denim Jacket \u2014 Light Wash, Cropped",
+            "description": "Cropped denim jacket in a light wash. Great structured shoulders. Blank canvas \u2014 no patches or pins but would be perfect to customize.",
+            "category": "outerwear",
+            "style_tags": [
+              "denim",
+              "vintage",
+              "classic",
+              "streetwear"
+            ],
+            "size": "S",
+            "condition": "excellent",
+            "price": 42.0,
+            "colors": [
+              "light blue"
+            ],
+            "brand": "Wrangler",
+            "platform": "poshmark"
+          },
+          "outfit_suggestion": "Hey there! Oh, you *have* to grab that Wrangler jacket\u2014light wash denim is a total wardrobe MVP. \n\nSince it's cropped, it's begging for high-waisted bottoms! For an effortless off-duty look, throw it on over a basic black or white baby tee, high-rise straight-leg black jeans, and your favorite retro sneakers. \n\nOr, lean into the vintage streetwear vibe and layer it over a comfy grey hoodie with the hood pulled out, paired with sweatpants and chunky kicks. It adds instant cool-factor while keeping things super cozy. \n\nHonestly, you'll wear this on repeat. Snag it!",
+          "fit_card": "Found this cute cropped light wash denim jacket on Poshmark for $42 and I am obsessed with the vintage streetwear vibe. It looks so good thrown over a grey hoodie with sweats for that effortless, off-duty look. Honestly such a good closet staple! #thriftfind #poshmarkstyle",
+          "error": null
+        },
+        "trace": "[1] parse_query\n      in:  denim jacket under $50\n      out: {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n[2] search_listings (via MCP)\n      in:  {'description': 'denim jacket', 'size': None, 'max_price': 50.0}\n      out: 7 items: Denim Jacket \u2014 Light Wash, Cropped, High-Waisted Denim Shorts \u2014 Cutoff, Denim Vest \u2014 Medium Wash, Studded \u2026 +4 more\n      \u2192    branch: selected lst_007 Denim Jacket \u2014 Light Wash, Cropped\n[3] suggest_outfit\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', wardrobe=0 items\n      out: Hey there! Oh, you *have* to grab that Wrangler jacket\u2014light wash denim is a total wardrobe MVP.   Since it's \u2026\n[4] create_fit_card\n      in:  new_item=lst_007 'Denim Jacket \u2014 Light Wash, Cropped', outfit=569 chars from step above\n      out: Found this cute cropped light wash denim jacket on Poshmark for $42 and I am obsessed with the vintage streetw\u2026",
+        "crashed": null
+      }
+    ]
+  }
+]
