@@ -200,8 +200,10 @@ def create_fit_card(outfit: str, new_item: dict) -> str:
         f"Platform: {platform}\n"
         f"How it's styled: {outfit.strip()}\n\n"
         "Rules: mention the item, the price, and the platform exactly once "
-        "each. Be specific about the vibe. No hashtags spam (at most two). "
-        "Return only the caption."
+        "each in the whole caption, and hashtags count as mentions, so never "
+        "put the platform name inside a hashtag (no #depopfinds, #poshmarkstyle "
+        "and the like). Be specific about the vibe. No hashtags spam (at most "
+        "two). Return only the caption."
     )
 
     response = (generate(prompt) or "").strip()
